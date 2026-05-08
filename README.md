@@ -1,5 +1,5 @@
-[![npm version](https://badge.fury.io/js/arxiv-api-ts.svg)](https://badge.fury.io/js/arxiv-api-ts)
-# arXiv-api-ts
+[![npm version](https://badge.fury.io/js/@modernized%2Farxiv-api.svg)](https://badge.fury.io/js/@modernized%2Farxiv-api)
+# @modernized/arxiv-api
 
 A Javascript wrapper for the arXiv API.
 
@@ -8,18 +8,18 @@ A Javascript wrapper for the arXiv API.
 ### Installation
 
 ```sh
-npm i arxiv-api-ts
+npm i @modernized/arxiv-api
 
 # or
 
-yarn add arxiv-api-ts
+yarn add @modernized/arxiv-api
 ```
 
 ### Usage example
 
 #### Using async/await
 ```js
-import search from "arXiv-api-ts";
+import search from "@modernized/arxiv-api";
 
 const papers = await search({
 	searchQueryParams: [
@@ -40,7 +40,7 @@ console.log(papers);
 
 #### Using Promise
 ```js
-import search from "arXiv-api-ts";
+import search from "@modernized/arxiv-api";
 
 const papers = search({
 		searchQueryParams: [

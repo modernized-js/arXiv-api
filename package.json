@@ -31,26 +31,26 @@
   },
   "homepage": "https://github.com/modernized-js/arXiv-api#readme",
   "dependencies": {
-    "brace-expansion": "^5.0.12",
-    "fast-xml-parser": "^5.11.2"
+    "brace-expansion": "^5.1.0",
+    "fast-xml-parser": "^5.12.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
     "@types/jest": "^30.0.0",
-    "@types/node": "^26.6.5",
-    "@typescript-eslint/eslint-plugin": "^8.71.2",
-    "@typescript-eslint/parser": "^8.71.2",
-    "eslint": "^10.13.0",
+    "@types/node": "^26.6.6",
+    "@typescript-eslint/eslint-plugin": "^8.74.0",
+    "@typescript-eslint/parser": "^8.74.0",
+    "eslint": "^10.15.0",
     "eslint-config-prettier": "10.1.8",
-    "eslint-plugin-jest": "^29.17.0",
+    "eslint-plugin-jest": "^29.17.1",
     "eslint-plugin-node": "11.1.0",
-    "globals": "^17.13.0",
+    "globals": "^17.14.0",
     "jest": "^30.5.2",
-    "knip": "^6.41.0",
-    "prettier": "^3.9.10",
+    "knip": "^6.48.0",
+    "prettier": "^3.10.1",
     "ts-jest": "^29.4.15",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.71.2"
+    "typescript-eslint": "^8.74.0"
   },
   "types": "./dist/index.d.ts",
   "files": [
